@@ -108,13 +108,13 @@ p {
   padding-bottom: 20px;
 }
 
-footer {
+.footer {
   position: absolute;
   top: 90%;
   right: 35%;
 }
 
-footer a {
+.footer a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
