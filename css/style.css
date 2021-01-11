@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-color: rgb(0, 182, 199);
+  overflow: hidden;
+  text-align: center;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
+  
+}
+
+.backing {
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 5px 5px 30px 0px rgb(63, 62, 62);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.avatar img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.age p{
+  font-size: 20px;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.location p{
+  font-size: 14px;
+}
+
+.soc_media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid hsl(0, 0%, 63%);
+}
+
+.soc_media .follow_me, .like_me, .pictures {
+  padding-top: 20px;
+}
+
+.follow_me {
+  align-items: center;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 63%);
+  padding-bottom: 20px;
+}
+
+footer {
+  position: absolute;
+  top: 90%;
+  right: 35%;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.top img {
+  position: absolute;
+  top: -50%;
+  left: -30%;
+}
+
+.bottom img {
+  position: absolute;
+  bottom: -50%;
+  right: -30%;
+}
+
+@media (max-width: 375px) {
+}
